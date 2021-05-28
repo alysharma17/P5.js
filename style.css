@@ -1,0 +1,42 @@
+.header {
+    font-family:bold;
+    font-weight:900;
+    color:black;
+   box-shadow:5px 5px 20px rgb(149, 248, 255);  
+   background-color: azure;
+}
+
+body {
+    background:linear-gradient(white, rgb(166, 255, 255));
+}
+
+.snap {
+    background-color:deeppink;
+    width:150px;
+    height:50px;
+    border-radius:7px;
+    color:whitesmoke;
+    font-size:17px;
+    border-color: deeppink;
+    animation-name:example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+.snap:hover {
+    background-color: rgb(155, 0, 83);
+}
+
+
+
+@keyframes example{
+    from{
+        
+        box-shadow:6px 6px 30px rgb(0, 4, 255);
+    }
+    to{
+        
+        box-shadow:6px 6px 30px rgb(255, 0, 234);
+    }
+}
